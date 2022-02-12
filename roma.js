@@ -10,3 +10,17 @@ function mudaB(){
     }
 }
 
+var cesar = document.getElementById('cesar');
+var C64 = document.getElementById('C64');
+var incremento = document.getElementById('incrt');
+
+function mostraInc() { 
+    incremento.style.display = "block"; 
+}
+
+function escondeInc() {
+    incremento.style.display = "none";
+}
+
+cesar.addEventListener('change', mostraInc);
+base64.addEventListener('change', escondeInc);
