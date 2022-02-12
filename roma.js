@@ -23,4 +23,5 @@ function escondeInc() {
 }
 
 cesar.addEventListener('change', mostraInc);
-base64.addEventListener('change', escondeInc);
+C64.addEventListener('change', escondeInc);
+
