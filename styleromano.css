@@ -1,4 +1,58 @@
 
 body{
     background-position: center;
+    background-color: aqua;
+}
+
+.caixa {
+    position: relative;
+    top: 2rem;
+    left: 25%;
+    background-color: rgb(133,149,147,0.6);
+    border-radius: 5px;
+    max-width: 40%;
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#enviar {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #26343c;
+    color: white;
+    border: 2px solid #1A2326;
+}
+
+#enviar:hover {
+    background-color: transparent;
+    color: #1A2326;
+    border: 2px solid #1A2326;
+}
+
+textarea {
+    width: 200px;
+    background-color: #1A2326;
+    color: #859593;
+}
+
+h1 {
+    color: #1A2326;
+}
+
+#incrt {
+    display: none;
+}
+
+#incrt {
+    background-color: #1A2326;
+    color: #859593;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
 }
