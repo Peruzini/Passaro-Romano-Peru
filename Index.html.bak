@@ -8,37 +8,37 @@
     <script src="roma.js" defer></script>
 </head>
 <body>
-  <div class = "caixa">
+    <div class = "caixa">
          <h1>DECODIFICADOR</h1>
          <textarea id = "retorno">Escreva o texto aqui.</textarea>
 
       <span>
-        <input type="radio" id = "C64" name="codigo" value="Base64">
+        <input type="radio" id = "base64" name="codigo" value="Base64">
         <label for = "Base64"> Base 64 </label>
         </input>
 
-        <input type = "radio" id = "cesar" name = "codigo" value = "Cesar">
-        <label for="Cesar">César</label>
+        <input type = "radio" id = "cesar" name = "codigo" value = "César">
+        <label for="César">César</label>
         </input>
       </span>
 
         <div id = "incremento">
             <input type = "text" id = " incrt" name="incremento" value="1"><label for="incremento">
             
-            </label> </div></input>
+            </label> </input>
+          </div>
         
         <span>
-            <input type="radio" id="codificar" name="detalhes" onclick="mudaB()"><label for ="codificar">
+            <input type="radio" id="codico" name="detalhes" onclick="mudaB()"><label for ="codigo">
             Codificar</label>
-            <input type = "radio" id = "decodificar" name="detalhes" onclick="mudaB()"><label for = "decodificar">
+            <input type = "radio" id = "decodico" name="detalhes" onclick="mudaB()"><label for="decodico">
             Decodificador</label>
         </span>
-        <button id=" enviar">CODIFICADOR</button>
+        <button id="enviar">CODIFICADOR</button>
         <br><br>
 
         <p> </p>
         </div>
-        
-  </div>
-</body>
+
+  </body>
 </html>

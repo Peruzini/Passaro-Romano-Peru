@@ -1,12 +1,11 @@
-var decodificar = document.getElementById('decodificar');
-var codificar = document.getElementById('codificar');
-var enviarB = document.getElementById('enviar');
+var code = document.getElementById('codico');
+var decode = document.getElementById('decodico');
+var botaoenviar = document.getElementById('enviar');
 
-function mudaB(){
-    if(decodificar.checked){
-        enviarB.innertext = "Decodificar";
-    }else if(codificar.checked){
-        enviarB.innertext = "Codificar"
+function mudaB () {
+    if (decode.checked) {
+        botao.innerText = "Decodificar!";
+    } else if (code.checked) {
+        botao.innerText = "Codificar!";
     }
 }
-
