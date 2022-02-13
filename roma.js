@@ -1,6 +1,6 @@
 var code = document.getElementById('code');
 var decode = document.getElementById('decode');
-var botao = document.getElementById('botaoEnviar');
+var botao = document.getElementById('enviar');
 
 
 function mudaBotao () {
